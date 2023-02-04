@@ -1,0 +1,61 @@
+
+.center{
+    text-align: center;  /* Canh giữa chữ  */
+    margin: 100px; /* Canh lề */
+    
+}
+/* Block */
+.btn_a{
+   text-decoration: none;  /* Xóa đường kẻ dưới chân của thẻ a */
+}
+
+.btn_div{
+	
+	display: inline-block;  /*Chỉnh lên chung hàng nhiều thẻ div*/
+}
+
+.btn{
+	display: inline-block;
+	text-decoration: none;  /* Xóa đường kẻ dưới chân của thẻ a */
+	background-color: transparent; /*Tạo trong suốt cho button*/
+	border: none; /* Bỏ viền sung quanh button  */
+	color: #fff;
+	padding: 15px 50px; /* Kính thước nút */
+	border-radius: 50px;  /* Bo 4 cạnh của nút */
+	margin-top: 20px; /* Cách  */
+	cursor: pointer; /* khi khê chuột vào hiện con trỏ chột thành bàn tay*/
+	min-width: 50px;
+	transition: opacity 0.2 ease; /* Thời gian chạy hiệu ứng opacity */
+}
+
+/* hiệu ứng rê chuột */
+.btn:hover{
+	opacity: 0.8;
+}
+
+.btn + .btn{  /* hàm điều kiện */
+	margin-left: 20px;
+}
+
+/* Trang thái nút không được bấm vào */
+.btn--disabled{  /* Trang thái nút không được bấm vào */
+	opacity: 0.2 !important; /* !important tắt hiệu ứng trỏ chuột  */
+	cursor: default; /* Tắt hiệu ứng rê chuột hiện bàn tay */
+}
+
+/*  */
+.btn-Dangnhap{
+    background-color: rgb(199, 211, 37);
+    padding: auto;
+
+}
+.btn-Dangky{
+    background-color: rgb(96, 190, 190);
+    padding: auto;
+
+}
+.btn-Ok{
+    background-color: rgb(129, 18, 18);
+    padding: auto;
+
+}
